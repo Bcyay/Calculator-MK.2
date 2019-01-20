@@ -1,5 +1,5 @@
-/# Calculator-MK.2
-Written in c++/
+cout<<" Calculator-MK.2"<<endl;
+cout<<"Written in c++"endl;
 
 
 

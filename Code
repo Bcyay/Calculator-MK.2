@@ -1,3 +1,13 @@
+
+// Created By Ben
+// Updated By Leo
+// Created in 2019
+//
+// Created in c++
+//
+//
+
+
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
@@ -6,45 +16,58 @@ using namespace std;
 
 int main()
 {
-    
-    cout <<"Written in c++"<<endl;
-   int a;
-   string mode;
-   int b;
-   int sm;
-   
-   
-   cout<<"NUMBERS NOWWWW!!!"<<endl;
-   cout<<"Example: 1 + 2"<<endl;
-   cin>> a >> mode >> b;
-   
-   cout<< "a is "<<a<<", mode is "<<mode<<", b is "<<b<<endl;
-   
-  
-  if(mode=="+") 
-  {
-      sm= a + b;
-  }
-  
-  if(mode=="*")
-  {
-      sm= a * b;
-  }
-  
-  if(mode=="-")
-  {
-      sm= a - b;
-  }
-  
-  if(mode=="/")
-  {
-      sm= a / b;
-  }
-  
-   cout<<"  "<<endl;
-    cout<<"The answer is "<<sm << endl;
 
+    cout << "Written in c++" << endl;
+
+    int c;
+
+    string mode;
+    int a;
+    int b;
+    int sm;
+
+
+
+
+    while (c != 1)
+    {
+
+
+
+
+    cout << "NUMBERS NOWWWW!!!" << endl;
+    cout << "Example: 1 + 2" << endl;
+    cin >> a >> mode >> b;
+
+    cout << "a is " << a << ", mode is " <<mode<< ", b is " << b << endl;
+
+
+    if(mode == "+")
+    {
+        sm = a + b;
+    }
+
+    if(mode == "*")
+    {
+        sm = a * b;
+    }
+
+    if(mode == "-")
+    {
+        sm = a - b;
+    }
+
+    if(mode == "/")
+    {
+        sm = a / b;
+    }
+
+    cout << "  " << endl;
+    cout << "The answer is " << sm << endl;
+
+        cout << "do you want to end program 1 = yes " << endl;
+        cin >> c;
+    }
 
     return 0;
 }
-

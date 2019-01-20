@@ -1,5 +1,5 @@
-# Calculator-MK.2
-Written in c++
+/# Calculator-MK.2
+Written in c++/
 
 
 
